@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&family=Oxygen:wght@300;700&display=swap');
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: #ff0090;
+  display: flex;
+}
+
+
+.logo {
+  color: #fff;
+  font-size: 32px;
+  justify-content: left;
+  padding-left: 8px;
+  font-family: 'Cabin', sans-serif;
+  padding-left: 40px;
+  font-weight: 700;
+}
+
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.links-left {
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+ul.links {
+  display: flex;
+  gap: 16px;
+  padding: 4px 32px;
+  justify-content: left; 
+  font-family: 'Oxygen', sans-serif;
+}
+
+.section-1 {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  padding: 90px;
+}
+
+h1.heading {
+  color: #fff;
+  font-size: 42px;
+  font-family: 'Cabin', sans-serif;
+}
+
+p.parag {
+  color: #fff;
+  font-size: 24px;
+  line-height: 28px;
+  font-family: 'Oxygen', sans-serif;
+  padding-bottom: 15px;
+}
+
+.intro-text {
+  flex-wrap: wrap;
+  padding: 40px;
+  width: 50%;
+}
+
+a.button-pink {
+  color: #fff;
+  background-color: #ff0090;
+  padding: 10px 25px;
+  font-family: 'Cabin', sans-serif;
+}
+
+.section-2 {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+h3.head-info {
+  font-family: 'Cabin', sans-serif;
+  font-size: 32px;
+  padding: 32px;
+}
+
+.img-section {
+  display: flex;
+  gap: 25px;
+}
+
+.img-1 img, .img-2 img, .img-3 img, .img-4 img {
+  border-radius: 50%;
+}
+
+.img-1, .img-2, .img-3, .img-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h4 {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 23px;
+}
+
+p.parag-2 {
+  color: #000;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: 'Oxygen', sans-serif;
+  max-width: 250px;
+  text-align: center;
+}
+
+.section-3 {
+  background-color: #ececec;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h5 {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 26px;
+  font-weight: 200;
+  text-align: center;
+
+}
+
+.facts {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.section-4 {
+  background-color: #fff;
+  
+}
+
+.cta {
+  background-color: #ff0090;
+  padding: 60px;
+  margin: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.text-cta {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: left;
+}
+
+a.button-cta {
+  color: #ff0090;
+  background-color: #fff; 
+  padding: 10px 25px;
+  font-family: 'Cabin', sans-serif;
+}
+
+.footer {
+  background-color: #000;
+  padding: 30px;
+}
+
+.full-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+a.footer-txt {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #ff0090;
+}
+
+.section-left {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 90px;
+  justify-content: flex-end;
+}
+
+.section-right {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  padding: 90px;
+}
+
+h1.heading-left {
+  color: #000;
+  font-size: 48px;
+  font-family: 'Cabin', sans-serif;
+}
+
+h1.heading-right {
+  color: #fff;
+  font-size: 48px;
+  font-family: 'Cabin', sans-serif;
+}
+
+p.parag-left {
+  color: #000;
+  font-size: 35px;
+  line-height: 42px;
+  font-family: 'Oxygen', sans-serif;
+  padding-bottom: 15px;
+}
+
+p.parag-right {
+  color: #fff;
+  font-size: 35px;
+  line-height: 42px;
+  font-family: 'Oxygen', sans-serif;
+  padding-bottom: 15px;
+}
+
+.intro-text-left {
+  flex-wrap: wrap;
+  padding: 40px;
+  width: 50%;
+}
+
+.intro-text-right {
+  flex-wrap: wrap;
+  padding: 40px;
+  width: 50%;
+}
+
+
+
+.section-right-pink {
+  background-color: #DE9CC5;
+  display: flex;
+  align-items: center;
+  padding: 90px;
+}
