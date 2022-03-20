@@ -197,12 +197,19 @@ a.footer-txt {
   color: #ff0090;
 }
 
-.section-left {
+.section-left-pixel {
   background-color: #fff;
   display: flex;
   align-items: center;
   padding: 90px;
   justify-content: flex-end;
+}
+.section-left-angel {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 90px;
+  justify-content: center;
 }
 
 .section-right {
@@ -210,6 +217,7 @@ a.footer-txt {
   display: flex;
   align-items: center;
   padding: 90px;
+  justify-content: center;
 }
 
 h1.heading-left {
@@ -252,11 +260,10 @@ p.parag-right {
   width: 50%;
 }
 
-
-
 .section-right-pink {
   background-color: #DE9CC5;
   display: flex;
   align-items: center;
   padding: 90px;
+  justify-content: center;
 }
